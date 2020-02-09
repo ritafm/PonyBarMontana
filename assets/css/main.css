@@ -14,7 +14,7 @@ body, html {
 
   /* Center and scale the image nicely */
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
 }
 
@@ -22,6 +22,9 @@ body, html {
   font-family: 'Playfair Display', serif;
 }
 
+#home {
+  margin-bottom: 2%;
+}
 #tagline {
   font-family: 'Rye', cursive;
   text-align: center;
@@ -78,7 +81,6 @@ body, html {
     text-shadow: brown;
     margin-top: 5%;
     font-family: 'Playfair Display', serif;
-    padding: 2%;
     font-size: 200%;
     color: #F7F3E3;
 }
@@ -89,13 +91,22 @@ body, html {
     margin-top: 5%;
     margin-left: -20%;
     font-family: 'Playfair Display', serif;
-    padding: 2%;
     font-size: 200%;
     color: #F7F3E3;
 }
 
 .sylvie-img {
   margin-left: 10%;
+}
+
+.twang-words {
+  text-align: center;
+  text-shadow: brown;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  font-family: 'Playfair Display', serif;
+  font-size: 200%;
+  color: #F7F3E3;
 }
 
 
