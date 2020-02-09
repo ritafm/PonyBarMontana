@@ -18,6 +18,10 @@ body, html {
   background-size: cover;
 }
 
+.navbar {
+  font-family: 'Playfair Display', serif;
+}
+
 #tagline {
   font-family: 'Rye', cursive;
   text-align: center;
@@ -26,10 +30,77 @@ body, html {
   color: #F7F3E3;
 }
 
+#hours {
+  padding: 2%;
+  text-align: center;
+  color: #F7F3E3;
+  font-family: 'Rye', cursive;
+  text-align: center;
+  padding: 2%;
+  font-size: 300%;
+  color: #F7F3E3;
+}
+
+#hoursSubsection  {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  padding: 2%;
+  font-size: 150%;
+  color: #F7F3E3;
+}
+
+#events {
+  background-color: #595A4A;
+  padding-top: 2%;
+}
+
+#featured {
+  padding: 2%;
+  text-align: center;
+  color: #F7F3E3;
+  font-family: 'Rye', cursive;
+  text-align: center;
+  padding: 2%;
+  font-size: 300%;
+  color: #F7F3E3;
+}
+
+.img {
+  margin-left: 10%;
+}
+
+.row {
+    margin-top: 10%;
+}
+
+.tessy-words {
+    text-align: center;
+    text-shadow: brown;
+    margin-top: 5%;
+    font-family: 'Playfair Display', serif;
+    padding: 2%;
+    font-size: 200%;
+    color: #F7F3E3;
+}
+
+.sylvie-words {
+    text-align: center;
+    text-shadow: brown;
+    margin-top: 5%;
+    margin-left: -20%;
+    font-family: 'Playfair Display', serif;
+    padding: 2%;
+    font-size: 200%;
+    color: #F7F3E3;
+}
+
+.sylvie-img {
+  margin-left: 10%;
+}
 
 
 
 /* fonts: 
-font-family: 'Roboto', sans-serif;
+font-family: 'Playfair Display', serif;
 font-family: 'Rye', cursive; */
 

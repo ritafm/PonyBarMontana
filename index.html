@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/reset.css">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Rye&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Rye&display=swap" rel="stylesheet">
     <!-- jQuery and Bootstrap -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -31,19 +31,62 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-item nav-link active" href="#">Info <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="#">Photos</a>
                         <a class="nav-item nav-link" href="#">Events</a>
                         <a class="nav-item nav-link" href="#">Contact</a>
+                        <a class="nav-item nav-link" href="#">Photos</a>
 
                     </div>
                 </div>
             </nav>
 
             <!-- main content -->
-            <section>
+            <section id="home">
                 <header id="tagline">Southwest Montana's Real Western Bar</header>
+                <img class="rounded mx-auto d-block" src="./assets/images/lineup.jpg" alt="people at the bar">
+                <h1 id="hours">Bar Hours</h1>
+                <div id="hoursSubsection">
+                    <p>Monday to Friday 1pm to closing</p>
+                    <p>Weekends noon to closing</p>
+                </div>
             </section>
-            <img class="rounded mx-auto d-block" src="./assets/images/lineup.jpg" alt="people at the bar">
+
+            <!-- events -->
+            <section id="events">
+                <h1 id="featured">Featured Events</h1>
+
+            <div class="row">
+                <div class="col-md-6 tessy-words">
+                    <h4>Tessy Lou</h4>
+                                <h4 class="subheading">Saturday, March 7th</h4>
+                </div>
+                <div class="col-md-6 tessy-img">
+                    <img src="./assets/images/tessyLou.jpg" class="rounded-circle img-fluid" alt="Tessy Lou"/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 sylvie-img">
+                    <img src="./assets/images/sylvie.jpg" class="rounded-circle img-fluid" alt="Sylvie"/>
+                </div>
+                <div class="col-md-6 sylvie-words">
+                    <h4>Sylvie Davidson</h4>
+                                <h4 class="subheading">Saturday, March 14th</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 tessy-words">
+                    <h4>www.twang</h4>
+                                <h4 class="subheading">Sunday, March 22nd</h4>
+                </div>
+                <div class="col-md-6 tessy-img">
+                    <img src="./assets/images/twang.jpg" class="rounded-circle img-fluid" alt="Tessy Lou"/>
+                </div>
+            </div>
+
+        </section>
+
+        
 
 
             <!-- footer -->
