@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Rye&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d96dfbce03.js" crossorigin="anonymous"></script>
     <!-- jQuery and Bootstrap -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -19,79 +23,192 @@
 </head>
 
 <body>
-    <div class="bg">
+    <div class="container-fluid">
 
-        <div class="container-fluid">
+        <!-- NavBar -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/barOutline.png" alt="bar outline">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#home">Info<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#events">Events</a>
+                    <a class="nav-item nav-link" href="#menu">Menu</a>
+                    <a class="nav-item nav-link" href="#contact">Contact</a>
 
-            <!-- NavBar -->
-            <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-                <a class="navbar-brand" href="#">
-                    <img src="./assets/images/barOutline.png" alt="bar outline">
-                </a>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="#home">Info <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="#events">Events</a>
-                        <a class="nav-item nav-link" href="#contact">Contact</a>
-
-                    </div>
                 </div>
-            </nav>
+            </div>
+        </nav>
 
-            <!-- main content -->
-            <section id="home">
-                <header id="tagline">Southwest Montana's Real Western Bar</header>
-                <img class="rounded mx-auto d-block" src="./assets/images/lineup.jpg" alt="people at the bar">
-                <h1 id="hours">Bar Hours</h1>
-                <div id="hoursSubsection">
-                    <p>Monday to Friday 1pm to closing</p>
-                    <p>Weekends noon to closing</p>
-                </div>
-            </section>
+        <!-- main content -->
+        <section class="bg" id="home">
+            <header id="tagline">Southwest Montana's Real Western Bar</header>
+            <img class="rounded mx-auto d-block" src="./assets/images/lineup.jpg" alt="people at the bar">
+            <h1 id="hours">Bar Hours</h1>
+            <div id="hoursSubsection">
+                <p>Monday to Friday 1pm to closing</p>
+                <p>Weekends noon to closing</p>
+            </div>
+        </section>
 
-            <!-- events -->
-            <section id="events">
-                <h1 id="featured">Featured Events</h1>
-
+        <!-- events -->
+        <section id="events">
+            <h1 id="featured">Featured Events</h1>
             <div class="row">
                 <div class="col-md-6 tessy-words">
                     <h4>Tessy Lou</h4>
-                                <h4 class="subheading">Saturday, March 7th</h4>
+                    <h4 class="subheading">Saturday, March 7th</h4>
                 </div>
                 <div class="col-md-6 tessy-img">
-                    <img src="./assets/images/tessyLou.jpg" class="rounded-circle img-fluid" alt="Tessy Lou"/>
+                    <img src="./assets/images/tessyLou.jpg" class="rounded-circle img-fluid" alt="Tessy Lou" />
                 </div>
             </div>
-
             <div class="row">
                 <div class="col-md-4 sylvie-img">
-                    <img src="./assets/images/sylvie.jpg" class="rounded-circle img-fluid" alt="Sylvie"/>
+                    <img src="./assets/images/sylvie.jpg" class="rounded-circle img-fluid" alt="Sylvie" />
                 </div>
                 <div class="col-md-6 sylvie-words">
                     <h4>Sylvie Davidson</h4>
-                                <h4 class="subheading">Saturday, March 14th</h4>
+                    <h4 class="subheading">Saturday, March 14th</h4>
                 </div>
             </div>
-
             <div class="row">
                 <div class="col-md-6 twang-words">
                     <h4>www.twang</h4>
-                                <h4 class="subheading">Sunday, March 22nd</h4>
+                    <h4 class="subheading">Sunday, March 22nd</h4>
                 </div>
                 <div class="col-md-6 twang-img">
-                    <img src="./assets/images/twang.jpg" class="rounded-circle img-fluid" alt="www.twang"/>
+                    <img src="./assets/images/twang.jpg" class="rounded-circle img-fluid" alt="www.twang" />
                 </div>
             </div>
-
         </section>
 
+        <!-- menu -->
+        <section class="bg2" id="menu">
+            <h1 id="menuTitle">Cook Shack Menu</h1>
+            <div class="menuContainer">
+                <!-- row 1 -->
+                <div class="row justify-content-md-center">
+                    <div class="col-1">
+                    </div>
+                    <div class="col-3 menuItem">
+                        <div class="menuItemTitle">Butch Burger</div>
+                        <div class="menuItemDescription">Sirloin burger with grilled onions and cheese.</div>
+                    </div>
+                    <div class="col-2 menuItemCost">
+                        $9
+                    </div>
+                    <div class="col-3 menu-item">
+                        <div class="menuItemTitle">Pony Burger</div>
+                        <div class="menuItemDescription">Sirloin burger with grilled onions and ham.</div>
+                    </div>
+                    <div class="col-2 menuItemCost">
+                        $10
+                    </div>
+                    <div class="col-1">
+                    </div>
+                </div>
 
+                <!-- row 2 -->
+                <div class="row justify-content-md-center">
+                    <div class="col-1">
+                    </div>
+                    <div class="col-3 menuItem">
+                        <div class="menuItemTitle">Spicy Jalepeno Burger</div>
+                        <div class="menuItemDescription">Sirloin burger with jalepenos, grilled onions and cheese.</div>
+                    </div>
+                    <div class="col-2 menuItemCost">
+                        $9
+                    </div>
+                    <div class="col-3 menu-item">
+                        <div class="menuItemTitle">Mushroom Swiss Burger</div>
+                        <div class="menuItemDescription">Sirloin burger with mushrooms, grilled onions and cheese.</div>
+                    </div>
+                    <div class="col-2 menuItemCost">
+                        $10
+                    </div>
+                    <div class="col-1">
+                    </div>
+                </div>
 
-            <!-- footer -->
+                <!-- row 3 -->
+                <div class="row justify-content-md-center">
+                    <div class="col-1">
+                    </div>
+                    <div class="col-3 menuItem">
+                        <div class="menuItemTitle">Bacon and Cheese Burger</div>
+                        <div class="menuItemDescription">Sirloin burger with bacon and cheese.</div>
+                    </div>
+                    <div class="col-2 menuItemCost">
+                        $10
+                    </div>
+                    <div class="col-3 menu-item">
+                        <div class="menuItemTitle">Grilled Chicken Sandwich</div>
+                        <div class="menuItemDescription">Sirloin burger with grilled onions and ham.</div>
+                    </div>
+                    <div class="col-2 menuItemCost">
+                        $10
+                    </div>
+                    <div class="col-1">
+                    </div>
+                </div>
 
-        </div>
+                <!-- row 4 -->
+                <div class="row justify-content-md-center">
+                    <div class="col-1">
+                    </div>
+                    <div class="col-3 menuItem">
+                        <div class="menuItemTitle">Home Cut French Fries</div>
+                        <div class="menuItemDescription">Freshly made from home cut potatoes.</div>
+                    </div>
+                    <div class="col-2 menuItemCost">
+                        $3
+                    </div>
+                    <div class="col-3 menu-item">
+                        <div class="menuItemTitle">Chicken Enchiladas</div>
+                        <div class="menuItemDescription"></div>
+                    </div>
+                    <div class="col-2 menuItemCost">
+                        $8
+                    </div>
+                    <div class="col-1">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section id="contact">
+            <h1 id="contactUs">Contact Us</h1>
+            <img class="rounded mx-auto d-block" src="./assets/images/PontiacPonyBar.jpg" alt="old Pontiac">
+            <div class="row justify-content-md-center">
+                <div class="col-12" id="phone">
+                    406-685-3386
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-12" id="address">
+                    108 Broadway St, Pony, MT 59747
+                </div>
+            </div>
+            <div id="contactIcons">
+                <i class="fab fa-facebook fa-3x"></i>
+                <i class="fab fa-instagram fa-3x"></i>
+                <i class="far fa-envelope fa-3x"></i>
+            </div>
+        </section>
     </div>
+    </section>
 
+
+
+    </section>
+
+
+    <!-- footer -->
+
+    </div>
 </body>
 
 </html>

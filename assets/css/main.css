@@ -5,6 +5,7 @@
 body, html {
   height: 100%;
 }
+
 .bg {
   /* The image used */
   background-image: url(../images/wood.jpg);
@@ -22,9 +23,6 @@ body, html {
   font-family: 'Playfair Display', serif;
 }
 
-#home {
-  margin-bottom: 2%;
-}
 #tagline {
   font-family: 'Rye', cursive;
   text-align: center;
@@ -34,7 +32,6 @@ body, html {
 }
 
 #hours {
-  padding: 2%;
   text-align: center;
   color: #F7F3E3;
   font-family: 'Rye', cursive;
@@ -48,7 +45,7 @@ body, html {
   font-family: 'Playfair Display', serif;
   text-align: center;
   padding: 2%;
-  font-size: 150%;
+  font-size: 250%;
   color: #F7F3E3;
 }
 
@@ -58,12 +55,10 @@ body, html {
 }
 
 #featured {
-  padding: 2%;
   text-align: center;
   color: #F7F3E3;
   font-family: 'Rye', cursive;
   text-align: center;
-  padding: 2%;
   font-size: 300%;
   color: #F7F3E3;
 }
@@ -73,7 +68,7 @@ body, html {
 }
 
 .row {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .tessy-words {
@@ -108,6 +103,89 @@ body, html {
   font-size: 200%;
   color: #F7F3E3;
 }
+
+.bg2 {
+  /* The image used */
+  background-image: url(../images/paper.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  padding-bottom: 2%;
+}
+
+#menuTitle {
+  text-align: center;
+  color: #F7F3E3;
+  font-family: 'Rye', cursive;
+  text-align: center;
+  padding: 2%;
+  font-size: 300%;
+  color: #F7F3E3;
+}
+
+.menuContainer {
+  text-align: left;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  font-family: 'Playfair Display', serif;
+  font-size: 100%;
+  color: #F7F3E3;
+}
+
+.menuItemTitle {
+  color: black;
+  font-size: 150%;
+}
+
+.menuItemCost {
+  color: black;
+  font-size: 150%;
+}
+
+.menuItemDescription {
+  padding-top: 2%;
+}
+
+#contact {
+  background-color: #595A4A;
+  padding-top: 2%;
+}
+
+#contactUs {
+  text-align: center;
+  color: #F7F3E3;
+  font-family: 'Rye', cursive;
+  text-align: center;
+  padding: 2%;
+  font-size: 300%;
+  color: #F7F3E3;
+}
+
+#contactIcons {
+  text-align: center;
+  padding-top: 2%;
+}
+
+#phone {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 200%;
+  color: #F7F3E3;
+}
+
+#address {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 200%;
+  color: #F7F3E3;
+}
+
+
 
 
 
