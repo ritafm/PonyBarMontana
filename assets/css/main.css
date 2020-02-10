@@ -6,6 +6,10 @@ body, html {
   height: 100%;
 }
 
+#home {
+  padding-top: 5%;
+}
+
 .bg {
   /* The image used */
   background-image: url(../images/wood.jpg);
@@ -50,7 +54,7 @@ body, html {
 }
 
 #events {
-  background-color: #595A4A;
+  background-color: #60463B;
   padding-top: 2%;
 }
 
@@ -113,8 +117,8 @@ body, html {
 
   /* Center and scale the image nicely */
   background-position: center;
-  background-repeat: repeat;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
   padding-bottom: 2%;
 }
 
@@ -154,6 +158,7 @@ body, html {
 #contact {
   background-color: #595A4A;
   padding-top: 2%;
+  padding-bottom: 7%;
 }
 
 #contactUs {
