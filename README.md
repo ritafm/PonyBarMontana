@@ -8,7 +8,6 @@ A website for the Pony Bar in Pony, Montana.
 --Bootstrap  
 --Font Awesome    
 
----
 
 ![image](https://user-images.githubusercontent.com/48167135/74175126-05cd6a00-4bea-11ea-9ce0-690ec031ce82.png)  
   
